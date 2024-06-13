@@ -1,0 +1,358 @@
+.aboutHead{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 50px 0;
+    margin-bottom: 60px;
+}
+
+.aboutHead h1{
+    font-size: 45px;
+    font-weight: 500;
+    position: relative;
+}
+
+.pen-icon{
+    transform: rotate(90deg);
+    position: absolute;
+    width: 100px;
+    top: 8px;
+    right: 39.5%;
+}
+
+.userInfo{
+    display: flex;
+    gap: 25px;
+    padding-bottom: 50px;
+}
+
+.userImage{
+    height: 250px;
+    width: 220px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.userImage img{
+    height: 250px;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.aboutUser{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.aboutUser p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.skills:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.skillBar{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.skills p{
+    width: 100px;
+}
+
+.hrhtml{
+    width: 60%;
+}
+
+.skills hr{
+    height: 5px;
+    border: none;
+    outline: none;
+    background: linear-gradient(100deg , #0077b6, #48cae4);
+    border-radius: 10px;
+}
+
+.hrcss{
+    width: 50%;
+}
+.hrjs{
+    width: 60%;
+}
+
+.hrreactjs{
+    width: 70%;
+}
+
+.aboutAchivements{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 80px;
+    margin-top: 50px;
+}
+
+.aboutAchivement{
+    text-align: center;
+}
+
+.aboutAchivement h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    background: linear-gradient(140deg , #2196f3, #64b5f6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aboutAchivement p{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.hrpython{
+    width: 80%;
+}
+
+@media (max-width: 1000px){
+    .aboutHead h1{
+        font-size: 40px;
+    }
+    
+    .pen-icon{
+        width: 90px;
+        top: 8px;
+        right: 38.5%;
+    }
+    
+}
+
+@media (max-width: 900px){
+    .aboutHead h1{
+        font-size: 38px;
+    }
+
+    .pen-icon{
+        width: 90px;
+        top: 8px;
+        right: 37%;
+    }
+
+    .userImage{
+        height: 230px;
+        width: 230px;
+    }
+    
+    .userImage img{
+        height: 230px;
+        width: 220px;
+        padding: 17px;
+    }
+
+    .aboutUser p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 760px){
+    .userInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutHead h1{
+        font-size: 36px;
+    }
+
+    .pen-icon{
+        width: 90px;
+        top: 8px;
+        right: 36%;
+    }
+}
+
+@media (max-width: 650px){
+    .pen-icon{
+        width: 90px;
+        top: 8px;
+        right: 35%;
+    }
+}
+
+@media (max-width: 1150px){
+    
+    .aboutAchivement h1{
+        font-size: 27px;
+    }
+    
+    .aboutAchivement p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1100px){
+    
+    .aboutAchivement h1{
+        font-size: 25px;
+    }
+    
+    .aboutAchivement p{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 1111px){
+    
+    .aboutAchivement h1{
+        font-size: 23px;
+    }
+    
+    .aboutAchivement p{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 930px){
+    
+    .aboutAchivement h1{
+        font-size: 21px;
+    }
+    
+    .aboutAchivement p{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 800px){
+    
+    .aboutAchivement h1{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 750px){
+    
+    .aboutAchivement h1{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 700px){
+    
+    .aboutAchivement h1{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 601px){
+    
+    .aboutAchivement h1{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 601px){
+    
+    .aboutAchivement h1{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 535px){
+    
+    .aboutAchivement h1{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 425px){
+
+    .aboutHead h1{
+        font-size: 35px;
+    }
+
+    .skills p{
+        width: 80px;
+    }
+    
+    .hrhtml{
+        width: 55%;
+    }
+    
+    .skills hr{
+        height: 3px;
+    }
+    
+    .hrcss{
+        width: 50%;
+    }
+    .hrjs{
+        width: 55%;
+    }
+    
+    .hrreactjs{
+        width: 60%;
+    }
+
+    .hrpython{
+        width: 70%;
+    }
+
+    .aboutAchivements{
+        gap: 20px;
+    }
+
+    .aboutUser p{
+        font-size: 12px;
+    }
+
+    .aboutAchivement h1{
+        font-size: 10px;
+    }
+    
+    .aboutAchivement p{
+        font-size: px;
+    }
+}
+
+@media (max-width: 370px){
+
+    .aboutHead h1{
+        font-size: 32px;
+    }
+
+    .skills p{
+        width: 70px;
+    }
+
+    .aboutAchivements{
+        gap: 15px;
+    }
+
+    .aboutUser p{
+        font-size: 12px;
+    }
+
+    .aboutAchivement h1{
+        font-size: 10px;
+    }
+    
+    .aboutAchivement p{
+        font-size: 7px;
+    }
+}

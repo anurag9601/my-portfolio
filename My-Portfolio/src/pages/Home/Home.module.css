@@ -1,0 +1,333 @@
+
+center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.userImage{
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.userImage img{
+    width: 250px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+center h1{
+    font-size: 47px;
+    font-weight: 500;
+}
+
+center h1 span{
+    background: linear-gradient(180deg, #1565c0, #90caf9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+center p{
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 700px;
+}
+
+.homeButtons{
+    display: flex;
+    gap: 30px;
+}
+
+.connectMebtn{
+    height: 40px;
+    width: 150px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #0077b6, #ade8f4);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.connectMebtn:hover{
+    transform: scale(1.06);
+    transition: .3s;
+}
+
+.resumeBtn{
+    height: 40px;
+    width: 150px;
+    background: transparent;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border: 1px solid #fff;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.resumeBtn:hover{
+    border: 1px solid #560bad;
+    transition: .2s;
+}
+
+@media (max-width: 850px){
+    .userImage{
+        height: 230px;
+        width: 230px;
+        margin-top: 50px;
+    }
+    
+    .userImage img{
+        width: 230px;
+        padding: 18px;
+    }
+
+    center h1{
+        font-size: 44px;
+        font-weight: 500;
+    }
+
+    center p{
+        font-size: 13px;
+        font-weight: 400;
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 735px){
+    .userImage{
+        height: 210px;
+        width: 210px;
+        margin-top: 50px;
+    }
+    
+    .userImage img{
+        width: 210px;
+        border-radius: 50%;
+        padding: 16px;
+    }
+
+    center h1{
+        font-size: 42px;
+        font-weight: 500;
+    }
+
+    center p{
+        font-size: 12px;
+        font-weight: 400;
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 700px){
+    .userImage{
+        height: 200px;
+        width: 200px;
+        margin-top: 50px;
+    }
+    
+    .userImage img{
+        width: 200px;
+        border-radius: 50%;
+        padding: 14px;
+    }
+
+    center h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    center p{
+        font-size: 11px;
+        font-weight: 400;
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 670px){
+
+    center h1{
+        font-size: 37px;
+        font-weight: 500;
+    }
+
+    center p{
+        font-size: 10px;
+        font-weight: 400;
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 670px){
+
+    center h1{
+        font-size: 34px;
+        font-weight: 500;
+    }
+
+    center p{
+        font-size: 10px;
+        font-weight: 400;
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 560px){
+
+    .userImage{
+        height: 180px;
+        width: 180px;
+        margin-top: 50px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    
+    .userImage img{
+        width: 180px;
+        border-radius: 50%;
+        padding: 14px;
+    }
+
+    center h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    center p{
+        font-size: 9px;
+        font-weight: 400;
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 495px){
+
+    .userImage{
+        height: 170px;
+        width: 170px;
+        margin-top: 50px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    
+    .userImage img{
+        width: 170px;
+        border-radius: 50%;
+        padding: 11px;
+    }
+
+    center h1{
+        font-size: 27px;
+    }
+
+    center p{
+        font-size: 8px;
+        font-weight: 400;
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 450px){
+
+    .userImage{
+        height: 150px;
+        width: 150px;
+    }
+    
+    .userImage img{
+        width: 150px;
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    center h1{
+        font-size: 24px;
+    }
+
+    center p{
+        font-size: 8px;
+        font-weight: 400;
+        max-width: 500px;
+    }
+
+    .connectMebtn{
+        height: 40px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .resumeBtn{
+        height: 40px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 420px){
+
+    center h1{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 370px){
+
+    center h1{
+        font-size: 20px;
+    }
+
+    center p{
+        font-size: 8px;
+        font-weight: 400;
+        max-width: 500px;
+    }
+
+    .connectMebtn{
+        height: 40px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .resumeBtn{
+        height: 40px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 330px){
+
+    center h1{
+        font-size: 18px;
+    }
+
+    center p{
+        font-size: 8px;
+        font-weight: 400;
+        max-width: 500px;
+    }
+
+    .connectMebtn{
+        height: 40px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .resumeBtn{
+        height: 40px;
+        width: 130px;
+        font-size: 12px;
+    }
+
+}

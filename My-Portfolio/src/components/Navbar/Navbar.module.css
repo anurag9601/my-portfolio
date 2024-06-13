@@ -1,0 +1,173 @@
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.navContainer img{
+    width: 50px;
+    cursor: pointer;
+}
+
+.navContainer .navMenu ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navContainer .navMenu ul li{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navContainer .navMenu ul li img{
+    transform: rotate(90deg);
+    position: absolute;
+    width: 60px;
+    top: -4px;
+}
+
+.navContainer button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #0077b6, #ade8f4);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.navContainer button:hover{
+    transform: scale(1.06);
+    transition: .3s;
+}
+
+.navMenuAndIcon .sidebar-menu{
+    display: none;
+}
+
+@media (max-width: 1000px){
+    .navContainer .navMenu ul{
+        font-size: 13px;
+        gap: 35px;
+    }
+}
+
+@media (max-width: 850px){
+    .navContainer button{
+        height: 40px;
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .navContainer .navMenu ul{
+        font-size: 13px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 800px){
+    .navContainer .navMenu ul{
+        font-size: 12px;
+        gap: 25px;
+    }
+
+    .navContainer button{
+        height: 35px;
+        width: 120px;
+        font-size: 11px;
+    }
+}
+
+.navMenuAndIcon{
+    position: relative;
+}
+
+.sidebarMenu{
+    min-height: 100vh;
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: -150px;
+    background: #0000009e;
+    position: fixed;
+    transition: .3s;
+    display: none;
+}
+
+.activeBar{
+    left: 0px;
+    transition: .3s;
+}
+
+.sidebarMenu ul{
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarMenu ul li{
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #0077b6, #ade8f4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width: 750px){
+    .navContainer .navMenu ul{
+        display: none;
+    }
+
+    .navMenuAndIcon{
+        display: flex;
+        gap: 20px;
+    }
+
+    .navMenuAndIcon .sidebar-menu{
+        display: block;
+        z-index: 1;
+        position: fixed;
+        left: 0px;
+        top: 5px;
+    }
+
+    .sidebarMenu{
+        display: block;
+    }
+
+    .navContainer button{
+        height: 35px;
+        width: 120px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 456px){
+    .navMenuAndIcon .sidebar-menu{
+        width: 40px;
+        top: 10px;
+        left: 5px;
+    }
+}
+
+@media (max-width: 670px){
+    .navMenuAndIcon .sidebar-menu{
+        width: 35px;
+        top: 12px;
+        left: 5px;
+    }
+}
+

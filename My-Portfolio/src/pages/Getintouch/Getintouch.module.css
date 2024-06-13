@@ -1,0 +1,298 @@
+.getintouchContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.getintouchHead{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.getintouchHead h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.getintouchHead img{
+    position: absolute;
+    width: 100px;
+    transform: rotate(90deg);
+    right: 0;
+    top: 10px;
+}
+
+.responseContainer{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.contacts{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts h2{
+    font-size: 35px;
+    font-weight: 500;
+    background: linear-gradient(100deg , #2196f3, #64b5f6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contacts p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.contactinfo{
+    display: flex;
+    gap: 20px;
+}
+
+.contactinfo p{
+    font-weight: 300;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.inputContainer input{
+    width: 500px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 15px;
+    background: #495057;
+    border: none;
+    outline: none;
+    color: #ced4da;
+    border-radius: 5px;
+}
+
+.inputContainer input::placeholder{
+    font-size: 15px;
+    color: #ced4da;
+}
+
+.inputContainer input:focus{
+    border: 1px solid #fff;
+}
+
+.inputContainer label{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.inputContainer textarea{
+    height: 200px;
+    background: #495057;
+    color: #ced4da;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 15px;
+    resize: none;
+}
+
+.inputContainer textarea:focus{
+    border: 1px solid #fff;
+}
+
+.inputContainer textarea::placeholder{
+    font-size: 15px;
+    color: #ced4da;
+}
+
+.inputContainer button{
+    width: 150px;
+    margin-top: 20px;
+    background: linear-gradient(100deg , #2196f3, #64b5f6);
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 830px){
+    .getintouchHead h1{
+        font-size: 42px;
+    }
+
+    .inputContainer input{
+        width: 450px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 770px){
+    .getintouchHead h1{
+        font-size: 40px;
+    }
+
+    .inputContainer input{
+        width: 430px;
+        height: 45px;
+    }
+
+    .inputContainer button{
+        width: 130px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 715px){
+    .getintouchHead h1{
+        font-size: 38px;
+    }
+
+    .inputContainer input{
+        width: 400px;
+        height: 45px;
+    }
+
+    .inputContainer button{
+        width: 130px;
+        height: 40px;
+    }
+
+    .getintouchHead img{
+        width: 90px;
+    }
+}
+
+@media (max-width: 685px){
+    .getintouchHead h1{
+        font-size: 35px;
+    }
+
+    .inputContainer input{
+        width: 400px;
+        height: 45px;
+    }
+
+    .inputContainer button{
+        width: 130px;
+        height: 40px;
+    }
+
+    .getintouchHead img{
+        width: 90px;
+    }
+
+    .responseContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 50px;
+        padding-bottom: 50px;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 512px){
+    .getintouchHead h1{
+        font-size: 34px;
+    }
+
+    .inputContainer input{
+        width: 350px;
+        height: 45px;
+    }
+
+    .inputContainer button{
+        width: 130px;
+        height: 40px;
+    }
+
+    .getintouchHead img{
+        width: 85px;
+    }
+
+    .responseContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 50px;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 420px){
+    .getintouchHead h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 420px){
+
+    .inputContainer input{
+        width: 330px;
+        height: 45px;
+    }
+
+    .inputContainer button{
+        width: 120px;
+        height: 40px;
+    }
+
+    .getintouchHead img{
+        width: 85px;
+    }
+
+    .responseContainer{
+        gap: 40px;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 400px){
+
+    .inputContainer input{
+        width: 310px;
+        height: 45px;
+    }
+
+    .inputContainer button{
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 365px){
+
+    .inputContainer input{
+        width: 280px;
+        height: 45px;
+    }
+
+    .inputContainer button{
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 365px){
+
+    .inputContainer input{
+        width: 270px;
+        height: 45px;
+        font-size: 15px;
+    }
+}
